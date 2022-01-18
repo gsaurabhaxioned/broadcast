@@ -116,7 +116,7 @@ header{
   height: 56px;
   width: 100vw;
   float: left;
-  background-color: #2e4e59;
+  background-color: #15333d;
   color: #d5e1e6;
   display: flex;
 }
@@ -140,11 +140,13 @@ header .whitebold{
   color: white;
   font-size: 120%;
   font-weight: bold;
+  margin-right: 8px;
 }
 .hamburg{
   margin-right: 10px;
   color: white;
 }
+
 
 
 
@@ -157,9 +159,52 @@ header .whitebold{
   main styling starts here
 =================================*/
 
+.banner1{
+  height: 739px;
+  width: 100%;
+  float: left;
+  background-color: #41626e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner1-box{
+  height:300px;
+  width: 100%;
+  text-align: center;
+}
+.banner1-title{
+  height: auto;
+  width: auto;
+  font-size: 400%;
+  font-weight: bold;
+  color: white;
 
+}
+.banner1-para{
+  height: 83px;
+  width: auto;
+  margin-top: 38px;
+  color: white;
+  opacity: 0.7;
 
-
+}
+.banner1-para span{
+  display: block;
+  margin-top: 20px;
+}
+.banner1-button{
+  height: auto;
+  width: auto;
+  margin-top: 25px;
+}
+.banner1-button button{
+  padding:23px 35px;
+  background-color: transparent;
+  color: white;
+  border-color: 1px solid white 0.7;
+  font-weight: bold;
+}
 
 
 /*=================================
