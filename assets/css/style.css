@@ -408,6 +408,21 @@ header .whitebold{
 =================================*/ 
 
 
+footer{
+  height: 186px;
+  width: 100%;
+  float: left;
+  background-color:#1d212e ;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+footer span{
+  display: inline-block;
+  margin-left: 22px;
+}
+
 
 
 
