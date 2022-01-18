@@ -106,8 +106,39 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
-
+header{
+  height: 56px;
+  width: 100vw;
+  float: left;
+  background-color: #2e4e59;
+  color: #d5e1e6;
+  display: flex;
+}
+.logo{
+  height: 100%;
+  width:231;
+  padding-left: 23px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;  
+}
+.menu{
+  height: 100%;
+  width: 85px;
+  padding-right: 22px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+header .whitebold{
+  color: white;
+  font-size: 120%;
+  font-weight: bold;
+}
+.hamburg{
+  margin-right: 10px;
+  color: white;
+}
 
 
 
