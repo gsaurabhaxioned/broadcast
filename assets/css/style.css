@@ -366,6 +366,39 @@ header .whitebold{
   opacity: 0.6;
   font-size: 120%;
 }
+.about-info{
+  height: 415px;
+  width: 100%;
+  float: left;
+  background-color: #1d212e;
+}
+.about{
+  height: 100%;
+  width: 427px;
+  margin-left: 50px;
+  padding-left: 24px;
+  float: left;
+}
+.about h2{
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 112px;
+}
+.about ul{
+  margin-top: 47px;
+}
+.about ul li{
+  height: 47px;
+  width: 100%;
+  border-bottom: 1px solid #b8bed1;
+  padding-top: 12px;
+}
+.about ul li a{
+  color: white;
+  opacity: 0.6;
+  font-size: 110%;
+}
 /*=================================
   main styling ends here
 =================================*/
