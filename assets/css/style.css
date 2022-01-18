@@ -413,14 +413,23 @@ footer{
   width: 100%;
   float: left;
   background-color:#1d212e ;
-  display: flex;
-  justify-content: center;
-  color: white;
+  text-align: center;
 
 }
-footer span{
-  display: inline-block;
+footer div{
+  margin-top: 18px;
+}
+footer .icons{
+  color: white;
+}
+footer i{
   margin-left: 22px;
+}
+.faint{
+  color: #9ea5ba;
+}
+.dark{
+  color: white;
 }
 
 
