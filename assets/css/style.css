@@ -315,7 +315,7 @@ header .whitebold{
 .banner3-leftbox ul li{
     height: 45px;
     width: 266px;
-    background-color: pink;
+    background-color: rgb(245, 3, 193);
     margin: 10px 83px;
     border-radius: 12px;
     padding: 16px 18px;
@@ -356,6 +356,15 @@ header .whitebold{
   height: 374px;
   width: 427px;
   border: 1px solid white;
+  background-color: #607a82;
+}
+.banner4-lower span{
+  display: block;
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  opacity: 0.6;
+  font-size: 120%;
 }
 /*=================================
   main styling ends here
