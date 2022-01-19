@@ -130,7 +130,7 @@ header{
 }
 .menu{
   height: 100%;
-  width: 85px;
+  width: 100px;
   padding-right: 22px;
   margin-left: auto;
   display: flex;
@@ -246,6 +246,7 @@ header .whitebold{
   width: 663px;
   background-color: #607a82;
   text-align: center;
+  float: left;
 
 }
 .banner2-lowerbox img{
@@ -281,7 +282,7 @@ header .whitebold{
 .banner3-upper span{
   display: block;
   margin-top: 50px;
-  color: white;
+  color: #d4d0cf;
   opacity: 0.6;
   font-size: 135%;
 }
@@ -444,7 +445,15 @@ footer i{
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
-
+  h3{
+    font-size:200%
+  }
+  span{
+    font-size: 50%;
+  }
+.banner2{
+  height: 100%;
+  width: 100%;
+}
 
 }  
